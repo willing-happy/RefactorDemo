@@ -27,8 +27,6 @@ public class Customer {
         while (rentals.hasMoreElements()) {
             Rental each = (Rental) rentals.nextElement();
 
-            double thisAmount = each.getCharge();
-
             //add frequent renter points
             frequentRenterPoints++;
             //add bonus for a two day new release rental
@@ -37,8 +35,8 @@ public class Customer {
             }
 
             //show figures for this rental
-            result += "\t" + each.getMovie().getTitle() + "\t" + String.valueOf(thisAmount) + "\n";
-            totalAmount += thisAmount;
+            result += "\t" + each.getMovie().getTitle() + "\t" + String.valueOf(each.getCharge()) + "\n";
+            totalAmount += each.getCharge();
         }
 
         //add footer lines
