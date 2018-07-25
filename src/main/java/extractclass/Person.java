@@ -4,6 +4,7 @@ public class Person {
     private String name;
     private String officeAreaCode;
     private String officeNumber;
+    private TelephoneNumber telephoneNumber = new TelephoneNumber();
 
     public String getName() {
         return name;
