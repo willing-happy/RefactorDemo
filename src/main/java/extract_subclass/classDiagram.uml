@@ -3,13 +3,20 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="-460.0" y="-226.0">extract_subclass.JobItem</node>
+    <node x="24.5" y="0.0">extract_subclass.JobItem</node>
+    <node x="0.0" y="277.0">junit</node>
+    <node x="0.0" y="141.0">extract_subclass.LaborItem</node>
   </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="5.954545454545496" y="-4.363636363636374" />
+  <edges>
+    <edge source="extract_subclass.LaborItem" target="extract_subclass.JobItem">
+      <point x="0.0" y="-45.5" />
+      <point x="0.0" y="45.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.4000000000000001" x="221.2435897435896" y="115.46153846153844" />
   <SelectedNodes>
-    <node>extract_subclass.JobItem</node>
+    <node>extract_subclass.LaborItem</node>
   </SelectedNodes>
   <Categories>
     <Category>Methods</Category>
