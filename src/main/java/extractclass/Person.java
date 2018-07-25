@@ -8,10 +8,6 @@ public class Person {
         return name;
     }
 
-    public TelephoneNumber getTelephoneNumber() {
-        return telephoneNumber;
-    }
-
     public String getTelePhoneNumber(){
         return telephoneNumber.getTelePhoneNumber();
     }

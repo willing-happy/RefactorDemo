@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="21.0" y="0.0">extractclass.TelephoneNumber</node>
+    <node x="0.0" y="277.0">extractclass.Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="extractclass.Person" target="extractclass.TelephoneNumber">
+      <point x="83.5" y="-76.0" />
+      <point x="250.5" y="252.0" />
+      <point x="240.0" y="252.0" />
+      <point x="73.0" y="113.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="698.5" y="403.0" />
+  <SelectedNodes>
+    <node>extractclass.TelephoneNumber</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
