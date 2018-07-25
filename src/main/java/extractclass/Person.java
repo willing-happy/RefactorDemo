@@ -2,7 +2,6 @@ package extractclass;
 
 public class Person {
     private String name;
-    private String officeAreaCode;
     private String officeNumber;
     private TelephoneNumber telephoneNumber = new TelephoneNumber();
 
@@ -11,11 +10,11 @@ public class Person {
     }
 
     public String getOfficeAreaCode() {
-        return officeAreaCode;
+        return telephoneNumber.getOfficeAreaCode();
     }
 
     public void setOfficeAreaCode(String officeAreaCode) {
-        this.officeAreaCode = officeAreaCode;
+        telephoneNumber.setOfficeAreaCode(officeAreaCode);
     }
 
     public String getOfficeNumber() {
@@ -27,6 +26,6 @@ public class Person {
     }
 
     public String getTelePhoneNumber(){
-        return "(" + officeAreaCode + " )" + officeNumber;
+        return "(" + getOfficeAreaCode() + " )" + officeNumber;
     }
 }
