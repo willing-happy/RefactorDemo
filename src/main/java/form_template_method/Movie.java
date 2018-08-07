@@ -1,4 +1,4 @@
-package rentalstore;
+package form_template_method;
 
 public class Movie {
     public static final int CHILDRENS = 2;

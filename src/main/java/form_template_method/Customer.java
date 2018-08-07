@@ -1,4 +1,4 @@
-package rentalstore;
+package form_template_method;
 
 import java.util.Enumeration;
 import java.util.Vector;

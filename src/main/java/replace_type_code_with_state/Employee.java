@@ -1,6 +1,4 @@
-package replacetypecodewithstate;
-
-
+package replace_type_code_with_state;
 public class Employee {
     private int type;
     static final int ENGINEER = 0;

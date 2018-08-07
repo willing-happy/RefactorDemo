@@ -1,4 +1,4 @@
-package rentalstore;
+package form_template_method;
 
 public class Rental {
     private Movie movie;
