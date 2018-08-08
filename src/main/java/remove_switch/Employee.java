@@ -6,17 +6,12 @@ public class Employee {
     private int commission;
     private int bonus;
 
-    public Employee(int type) {
-        setType(type);
+    public Employee(EmployeeType employeeType){
+        type = employeeType;
     }
 
     int payAmount() {
         return this.type.payAmount(this);
-    }
-
-
-    public void setType(int type) {
-        this.type = EmployeeType.newType(type);
     }
 
     public void setMonthlySalary(int monthlySalary) {

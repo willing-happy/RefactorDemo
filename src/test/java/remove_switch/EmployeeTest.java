@@ -8,7 +8,7 @@ public class EmployeeTest {
 
     @Test
     public void should_return_100_when_payAmount_given_employee_is_Engineer_and_monthly_salary_is_100() throws Exception {
-        Employee engineer = new Employee(0);
+        Employee engineer = new Employee(new Engineer());
         engineer.setMonthlySalary(100);
 
         int payAmount = engineer.payAmount();
@@ -18,7 +18,7 @@ public class EmployeeTest {
 
     @Test
     public void should_return_220_when_payAmount_given_employee_is_Manager_and_monthly_salary_is_200_and_bonus_is_20() throws Exception {
-        Employee manager = new Employee(2);
+        Employee manager = new Employee(new Manager());
         manager.setMonthlySalary(200);
         manager.setBonus(20);
 
@@ -29,7 +29,7 @@ public class EmployeeTest {
 
     @Test
     public void should_return_200_when_payAmount_given_employee_is_Salesman_and_monthly_salary_is_100_and_commission_is_100() throws Exception {
-        Employee salesman = new Employee(1);
+        Employee salesman = new Employee(new Salesman());
         salesman.setMonthlySalary(100);
         salesman.setCommission(100);
 
