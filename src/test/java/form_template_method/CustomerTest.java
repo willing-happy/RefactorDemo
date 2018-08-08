@@ -105,6 +105,8 @@ public class CustomerTest {
 
         String statement = customer.htmlStatement();
 
+        System.out.println(statement);
+
         assertEquals("<H1>Rentals for <EM>Jerry</EM></H1><P>\n" +
                 "Titanic: 3.0<BR>\n" +
                 "<P>You owe<EM>3.0</EM><P>\n" +
