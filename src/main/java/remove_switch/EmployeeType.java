@@ -18,18 +18,7 @@ public abstract class EmployeeType {
         }
     }
 
-    int payAmount(Employee employee) {
-        switch (getTypeCode()) {
-            case ENGINEER:
-                return employee.getMonthlySalary();
-            case SALESMAN:
-                return employee.getMonthlySalary() + employee.getCommission();
-            case MANAGER:
-                return employee.getMonthlySalary() + employee.getBonus();
-            default:
-                throw new RuntimeException("Incorrect employee");
+    abstract int payAmount(Employee employee);
 
-        }
-    }
     abstract int getTypeCode();
 }
