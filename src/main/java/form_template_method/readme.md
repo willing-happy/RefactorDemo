@@ -8,8 +8,8 @@ Movie类<br>
 Rental类<br>
 表示租赁记录，包括租赁的片子和对应的记录<br> 
 Customer类<br>
-表示来租赁店的客人.
-statement方法是以ASCII码的方式打印出客人的租赁收费详情<br>
+表示来租赁店的客人.<br>
+statement方法是以纯文本方式打印出客人的租赁收费详情<br>
 htmlStatement方法是以html的方式打印出客人的租赁收费详情<br>
 
 
