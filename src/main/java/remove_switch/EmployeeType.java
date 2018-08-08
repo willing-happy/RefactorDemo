@@ -20,5 +20,4 @@ public abstract class EmployeeType {
 
     abstract int payAmount(Employee employee);
 
-    abstract int getTypeCode();
 }
