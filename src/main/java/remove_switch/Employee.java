@@ -10,11 +10,11 @@ public class Employee {
     private int bonus;
 
     public Employee(int type) {
-        this.type = type;
+        setType(type);
     }
 
     int payAmount() {
-        switch (type) {
+        switch (getType()) {
             case ENGINEER:
                 return monthlySalary;
             case SALESMAN:
@@ -25,6 +25,14 @@ public class Employee {
                 throw new RuntimeException("Incorrect employee");
 
         }
+    }
+
+    public int getType() {
+        return type;
+    }
+
+    public void setType(int type) {
+        this.type = type;
     }
 
     public void setMonthlySalary(int monthlySalary) {
