@@ -4,18 +4,26 @@
 
 小店之前有一个用了十年的系统, 是老板业余时间自己开发的.
 
-请重构之前老板写的代码，让系统能用html的格式打出租赁小票详情。
+在类Customer下有一个方法statement， 用来打印客人的租赁小票
+
+Rental Record for Jerry<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Titanic	1.5<br>
+Amount owed is 1.5<br>
+You earned 1 frequent renter points<br>
+
+请在类Customer中添加新的方法htmlStatement, 让系统能用html的格式打出租赁小票详情。
 比如：
 ```
 <H1>Rentals for <EM>Jerry</EM></H1><P>
 Roman Holiday: 3.0<BR>
 Titanic: 3.0<BR>
-<P>You owe<EM>3.0</EM><P>
+<P>You owe<EM>6.0</EM><P>
 On this rental you earned <EM>2</EM> frequent renter points<P>
 ```
 要求
-1. 先为已有代码添加测试
-2. 小步提交，每次提交说明动机和手法
+1. 重构Customer中Statement方法
+2. 重构之前先为已有代码添加测试
+3. 小步提交，每次提交说明动机和手法
 
 #进阶
 如果完成了以html格式打印小票的任务，请再完成以下要求<br>
